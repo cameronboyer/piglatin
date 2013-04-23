@@ -1,8 +1,7 @@
 ========================================================================
     APPLICATION : PigLatin2 Project Overview
 ========================================================================
-
-AppWizard has created this PigLatin2 Application for you.  
+ 
 
 This file contains a summary of what you will find in each of the files that
 make up your PigLatin2 application.
@@ -19,9 +18,20 @@ PigLatin2.cpp
 
 Form1.h
     Contains the implementation of your form class and InitializeComponent() function.
+    This file has all the method from button clicks.
 
 AssemblyInfo.cpp
     Contains custom attributes for modifying assembly metadata.
+
+CWrapper.h
+    Contains the definitions for the c code to be wrapped in c++.
+
+CWrapper.cpp
+    Contains the declarations for the c++ that is wrapping the c code.
+
+cFunctions.c
+    Contains the c declarations.
+
 
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
@@ -31,3 +41,5 @@ StdAfx.h, StdAfx.cpp
     named PigLatin2.pch and a precompiled types file named StdAfx.obj.
 
 /////////////////////////////////////////////////////////////////////////////
+
+
